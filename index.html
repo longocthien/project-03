@@ -24,7 +24,7 @@
             <div class="content">
                 <div class="content-row">
                     <div class="nav__logo">
-                        <a href="#">
+                        <a href="#!">
                             <img src="./assets/img/logo.svg" alt="logo" />
                             <img
                                 src="./assets/img/shine-smile.svg"
@@ -36,18 +36,20 @@
                     <nav>
                         <ul class="nav__list">
                             <li>
-                                <a class="list__item action" href="#">Home</a>
+                                <a class="list__item action" href="#!">Home</a>
                             </li>
-                            <li><a class="list__item" href="#">Services</a></li>
-                            <li><a class="list__item" href="#">About</a></li>
-                            <li><a class="list__item" href="#">Doctors</a></li>
+                            <li>
+                                <a class="list__item" href="#!">Services</a>
+                            </li>
+                            <li><a class="list__item" href="#!">About</a></li>
+                            <li><a class="list__item" href="#!">Doctors</a></li>
                         </ul>
                     </nav>
 
                     <div class="nav__btn">
-                        <a class="nav__btn--login" href="#">Login</a>
+                        <a class="nav__btn--login" href="#!">Login</a>
                         <button>
-                            <a class="nav__btn--signup" href="#">Sign Up</a>
+                            <a class="nav__btn--signup" href="#!">Sign Up</a>
                         </button>
                     </div>
                 </div>
@@ -66,18 +68,130 @@
                             </div>
                             <div class="hero__contact">
                                 <button class="hero__info--btn">
-                                    <a class="info__btn" href="#"
+                                    <a class="info__btn" href="#!"
                                         >Book Online</a
                                     >
                                 </button>
-                                <label class="hero__contact--label" for=""
-                                    >or call (123) 456-7890</label
+                                <span class="hero__contact--phone" for=""
+                                    >or call (123) 456-7890</span
                                 >
                             </div>
                         </div>
-                        <div class="hero__img">
-                            <img src="./assets/img/hero-img-1.svg" alt="" />
-                            <img src="./assets/img/hero-img-2.svg" alt="" />
+                        <figure class="hero__img">
+                            <img
+                                class="hero__img--1"
+                                src="./assets/img/hero-img-1.jpg"
+                                alt=""
+                            />
+                            <img
+                                class="hero__img--2"
+                                src="./assets/img/hero-img-2.jpg"
+                                alt=""
+                            />
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <!-- Services -->
+            <section class="services">
+                <div class="content">
+                    <div class="services-title">
+                        <h2>Our services</h2>
+                        <p class="services-desc">
+                            Exceptional dental care for all ages. Your great
+                            smile begins with a great dentist.
+                        </p>
+                    </div>
+                    <div class="services__block">
+                        <img
+                            class="services__block--img"
+                            src="./assets/img/services-img.jpg"
+                            alt="services-img"
+                        />
+                        <div class="services-block--info">
+                            <div class="block__info--group">
+                                <div class="info__group--item">
+                                    <div class="img-block">
+                                        <svg
+                                            class="img__block--teeth"
+                                            width="22"
+                                            height="24"
+                                            viewBox="0 0 22 24"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M20.3598 2.63964C17.9506 -0.556131 14.2772 -0.568132 11.2481 1.10682C11.001 1.24657 10.7219 1.31411 10.4406 1.30222C10.1592 1.29033 9.88633 1.19945 9.65105 1.03931C8.49552 0.245717 7.29036 -0.316477 5.13904 0.207462C0.623408 1.3071 0 4.90379 0 8.99816C0.0797353 12.1602 0.500857 15.3032 1.25551 18.3683C2.11836 22.0168 3.90382 24 5.43354 24C6.96326 24 7.00963 22.2204 7.00963 20.8016C7.00963 19.2009 7.39505 14.8009 10.8642 14.8009C13.5317 14.8009 14.3333 18.4013 14.3333 20.8016C14.3329 23.095 15.1722 24 16.6628 24C19.5267 24 20.9796 15.3938 21.3719 13.1237C21.7642 10.8535 22.9882 6.12569 20.3598 2.63964Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="item__title">
+                                            Oral Surgery
+                                        </h3>
+                                        <p class="item__desc">
+                                            Everything you expect and then some.
+                                            Cleanings, fillings, and x-rays.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="info__group--item">
+                                    <div class="img-block">
+                                        <svg
+                                            class="img__block--teeth"
+                                            width="22"
+                                            height="24"
+                                            viewBox="0 0 22 24"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M20.3598 2.63964C17.9506 -0.556131 14.2772 -0.568132 11.2481 1.10682C11.001 1.24657 10.7219 1.31411 10.4406 1.30222C10.1592 1.29033 9.88633 1.19945 9.65105 1.03931C8.49552 0.245717 7.29036 -0.316477 5.13904 0.207462C0.623408 1.3071 0 4.90379 0 8.99816C0.0797353 12.1602 0.500857 15.3032 1.25551 18.3683C2.11836 22.0168 3.90382 24 5.43354 24C6.96326 24 7.00963 22.2204 7.00963 20.8016C7.00963 19.2009 7.39505 14.8009 10.8642 14.8009C13.5317 14.8009 14.3333 18.4013 14.3333 20.8016C14.3329 23.095 15.1722 24 16.6628 24C19.5267 24 20.9796 15.3938 21.3719 13.1237C21.7642 10.8535 22.9882 6.12569 20.3598 2.63964Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="item__title">
+                                            Wisdom Teeth Removal
+                                        </h3>
+                                        <p class="item__desc">
+                                            Everything you expect and then some.
+                                            Cleanings, fillings, and x-rays.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="info__group--item">
+                                    <div class="img-block">
+                                        <svg
+                                            class="img__block--teeth"
+                                            width="22"
+                                            height="24"
+                                            viewBox="0 0 22 24"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M20.3598 2.63964C17.9506 -0.556131 14.2772 -0.568132 11.2481 1.10682C11.001 1.24657 10.7219 1.31411 10.4406 1.30222C10.1592 1.29033 9.88633 1.19945 9.65105 1.03931C8.49552 0.245717 7.29036 -0.316477 5.13904 0.207462C0.623408 1.3071 0 4.90379 0 8.99816C0.0797353 12.1602 0.500857 15.3032 1.25551 18.3683C2.11836 22.0168 3.90382 24 5.43354 24C6.96326 24 7.00963 22.2204 7.00963 20.8016C7.00963 19.2009 7.39505 14.8009 10.8642 14.8009C13.5317 14.8009 14.3333 18.4013 14.3333 20.8016C14.3329 23.095 15.1722 24 16.6628 24C19.5267 24 20.9796 15.3938 21.3719 13.1237C21.7642 10.8535 22.9882 6.12569 20.3598 2.63964Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="item__title">
+                                            Preventative Dentistry
+                                        </h3>
+                                        <p class="item__desc">
+                                            Everything you expect and then some.
+                                            Cleanings, fillings, and x-rays.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="services-btn">
+                                <a href="#!">All Services</a>
+                            </button>
                         </div>
                     </div>
                 </div>

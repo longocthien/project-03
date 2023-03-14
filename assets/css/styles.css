@@ -9,7 +9,6 @@ html {
 body {
     font-size: 1.6rem;
     font-family: 'Sora', 'Open Sans', sans-serif;
-    height: 1500px;
 }
 
 :root {
@@ -147,7 +146,7 @@ h1 {
     color: #ffffff;
 }
 
-.hero__contact--label {
+.hero__contact--phone {
     margin-left: 38px;
     font-weight: 400;
     font-size: 1.8rem;
@@ -156,5 +155,130 @@ h1 {
 }
 .hero__img {
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
+.hero__img--1 {
+    position: relative;
+    margin-right: -6px;
+    width: 330px;
+    height: 540px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.hero__img--2 {
+    right: -204px;
+    width: 210px;
+    height: 410px;
+    border-radius: 0px 6px 6px 0px;
+    object-fit: cover;
+}
+
+/* <!-- Services --> */
+.services {
+    padding: 170px 0 170px;
+}
+
+.services-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-desc {
+    width: 468px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    text-align: center;
+    color: #575f66;
+    margin: 18px auto 0;
+}
+
+.services__block {
+    display: flex;
+    margin-top: 70px;
+}
+
+.services__block--img {
+    margin-right: 130px;
+    width: 570px;
+    height: 570px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.block__info--group {
+    margin: 35px auto 55px;
+}
+
+.info__group--item {
+    display: flex;
+    padding: 21px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.info__group--item:hover {
+    box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.05);
+}
+
+.info__group--item:hover .img__block--teeth {
+    color: #ffffff;
+    transition: 0.25s;
+}
+
+.info__group--item:hover .img-block {
+    background: var(--primary-color);
+    transition: 0.25s;
+}
+
+.img-block {
+    margin-right: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    flex-shrink: 0;
+    box-shadow: 0px 8px 16px rgba(40, 155, 222, 0.15);
+    border-radius: 50%;
+}
+
+.img__block--teeth {
+    display: inline-block;
+    width: 22px;
+    height: 24px;
+    object-fit: cover;
+    color: var(--second-color);
+}
+
+.item__title {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: var(--second-color);
+}
+
+.item__desc {
+    margin-top: 8px;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #575f66;
+}
+
+.services-btn {
+    width: 205px;
+    height: 60px;
+}
+
+.services-btn a {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #ffffff;
+}
+
 
