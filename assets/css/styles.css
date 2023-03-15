@@ -61,6 +61,7 @@ button:hover {
 header {
     padding-top: 30px;
     background: var(--second-color);
+    height: 100vh;
 }
 
 .nav__list {
@@ -108,8 +109,6 @@ header {
 /*  <!-- Hero --> */
 .hero {
     padding-top: 76px;
-    padding-bottom: 110px;
-    background-color: var(--second-color);
 }
 
 .hero__info {
@@ -221,6 +220,7 @@ h1 {
 }
 
 .info__group--item:hover {
+    position: relative;
     box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.05);
 }
 
@@ -405,4 +405,110 @@ h1 {
     font-size: 1.8rem;
     line-height: 1.67;
     color: #ffffff;
+}
+
+/* about 2 */
+
+.about__02 {
+    margin-bottom: 170px;
+}
+
+.about__02--header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__02--btn {
+    margin-top: 38px;
+    width: 205px;
+    height: 60px;
+}
+.about__02--btn a {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #ffffff;
+}
+
+.about__02--doctor {
+    margin-top: 70px;
+    display: flex;
+    gap: 30px;
+}
+
+.doctor__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doctor__item:hover .doctor-img {
+    transform: scale(1.1);
+}
+
+.doctor-img--block {
+    overflow: hidden;
+    background: #eaf6ff;
+    border-radius: 6px;
+    padding: 28px 4px 0;
+}
+
+.doctor-img {
+    transition: 0.25s;
+    width: 270px;
+    height: 318px;
+    object-fit: cover;
+}
+
+.doctor-name {
+    display: inline-block;
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: var(--second-color);
+}
+
+.doctor-desc {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #575f66;
+}
+
+.about__01--arrow {
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.arrow__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #575f66;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+.arrow__block:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.arrow__block:hover .arrow__block--left,
+.arrow__block:hover .arrow__block--right {
+    color: #fff;
+}
+
+.arrow__block--left,
+.arrow__block--right {
+    color: #575f66;
 }
