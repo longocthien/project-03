@@ -410,7 +410,7 @@ h1 {
 /* about 2 */
 
 .about__02 {
-    margin-bottom: 170px;
+    padding-bottom: 85px;
 }
 
 .about__02--header {
@@ -511,4 +511,47 @@ h1 {
 .arrow__block--left,
 .arrow__block--right {
     color: #575f66;
+}
+
+/* features */
+
+.features {
+    margin-top: 180px;
+    margin-bottom: 170px;
+}
+
+.features__body {
+    padding: 0 70px;
+    background: var(--primary-color);
+    border-radius: 4px;
+    height: 427px;
+}
+
+.features__body--img {
+    position: relative;
+    top: -95px;
+}
+
+.features__body--info {
+    width: 586px;
+    margin-bottom: 95px;
+}
+
+.features__info--title {
+    width: 489px;
+    color: #fff;
+}
+
+.features__info--desc {
+    margin-top: 18px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #ffffff;
+}
+
+.app__block {
+    margin-top: 38px;
+    display: flex;
+    gap: 28px;
 }
