@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Shine smile</title>
 
         <!-- Embed font -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,12 +16,89 @@
         <!-- css -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/styles.css" />
+        <!-- Favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
     </head>
     <body>
         <header>
             <!-- Nav -->
 
-            <div class="content">
+            <div class="container">
                 <div class="content-row">
                     <div class="nav__logo">
                         <a href="#!">
@@ -47,9 +124,12 @@
                     </nav>
 
                     <div class="nav__btn">
-                        <a class="nav__btn--login" href="#!">Login</a>
+                        <a class="nav__btn--login" href="#!">Log In</a>
+
                         <button>
-                            <a class="nav__btn--signup" href="#!">Sign Up</a>
+                            <a class="nav__btn--signup btn__signup" href="#!"
+                                >Sign Up</a
+                            >
                         </button>
                     </div>
                 </div>
@@ -57,7 +137,7 @@
 
             <!-- Hero -->
             <section class="hero">
-                <div class="content">
+                <div class="container">
                     <div class="content-row">
                         <div class="hero__info">
                             <h1>Exceptional dental care for all ages.</h1>
@@ -66,8 +146,8 @@
                                 smile begins with a great dentist.
                             </div>
                             <div class="hero__contact">
-                                <button class="hero__info--btn">
-                                    <a class="info__btn" href="#!"
+                                <button>
+                                    <a class="info__btn btn" href="#!"
                                         >Book Online</a
                                     >
                                 </button>
@@ -95,7 +175,7 @@
         <main>
             <!-- Services -->
             <section class="services">
-                <div class="content">
+                <div class="container">
                     <div class="services-title">
                         <h2>Our services</h2>
                         <p class="services-desc">
@@ -104,14 +184,16 @@
                         </p>
                     </div>
                     <div class="services__block">
-                        <img
-                            class="services__block--img"
-                            src="./assets/img/services-img.jpg"
-                            alt="services-img"
-                        />
+                        <figure>
+                            <img
+                                class="services__block--img"
+                                src="./assets/img/services-img.jpg"
+                                alt="services-img"
+                            />
+                        </figure>
                         <div class="services-block--info">
                             <div class="block__info--group">
-                                <div class="info__group--item">
+                                <section class="info__group--item">
                                     <div class="img-block">
                                         <svg
                                             class="img__block--teeth"
@@ -136,8 +218,8 @@
                                             Cleanings, fillings, and x-rays.
                                         </p>
                                     </div>
-                                </div>
-                                <div class="info__group--item">
+                                </section>
+                                <section class="info__group--item">
                                     <div class="img-block">
                                         <svg
                                             class="img__block--teeth"
@@ -162,8 +244,8 @@
                                             Cleanings, fillings, and x-rays.
                                         </p>
                                     </div>
-                                </div>
-                                <div class="info__group--item">
+                                </section>
+                                <section class="info__group--item">
                                     <div class="img-block">
                                         <svg
                                             class="img__block--teeth"
@@ -188,10 +270,12 @@
                                             Cleanings, fillings, and x-rays.
                                         </p>
                                     </div>
-                                </div>
+                                </section>
                             </div>
-                            <button class="services-btn">
-                                <a href="#!">All Services</a>
+                            <button>
+                                <a class="services-btn btn" href="#!"
+                                    >All Services</a
+                                >
                             </button>
                         </div>
                     </div>
@@ -199,7 +283,7 @@
             </section>
             <!-- Work -->
             <section class="work">
-                <div class="content">
+                <div class="container">
                     <div class="work__title">
                         <h2>How it works</h2>
                         <p class="work__desc">
@@ -207,8 +291,8 @@
                             smile begins with a great dentist.
                         </p>
                     </div>
-                    <section class="work__list">
-                        <div class="work__item">
+                    <div class="work__list">
+                        <section class="work__item">
                             <div class="work__item--info">
                                 <img
                                     class="work__item--img"
@@ -224,8 +308,8 @@
                                     >Learn More</a
                                 >
                             </div>
-                        </div>
-                        <div class="work__item">
+                        </section>
+                        <section class="work__item">
                             <div class="work__item--info">
                                 <img
                                     class="work__item--img"
@@ -243,8 +327,8 @@
                                     >Learn More</a
                                 >
                             </div>
-                        </div>
-                        <div class="work__item">
+                        </section>
+                        <section class="work__item">
                             <div class="work__item--info">
                                 <img
                                     class="work__item--img"
@@ -260,15 +344,15 @@
                                     >Learn More</a
                                 >
                             </div>
-                        </div>
-                    </section>
+                        </section>
+                    </div>
                 </div>
             </section>
             <!-- Take back your smile with shine.=====about-01===== -->
             <section class="about">
-                <div class="content">
+                <div class="container">
                     <div class="about-row">
-                        <div class="about__img">
+                        <figure class="about__img">
                             <img
                                 class="about__img--1"
                                 src="./assets/img/about-2.jpg"
@@ -279,7 +363,7 @@
                                 src="./assets/img/about-1.jpg"
                                 alt=""
                             />
-                        </div>
+                        </figure>
                         <div class="about__info">
                             <h2 class="about__info--title">
                                 Take back your smile with shine.
@@ -289,8 +373,10 @@
                                 injury, or the natural aging process, dentures
                                 might be the perfect solution.
                             </p>
-                            <button class="about__info--btn">
-                                <a href="#!">Learn More</a>
+                            <button>
+                                <a class="about__info--btn btn" href="#!"
+                                    >Learn More</a
+                                >
                             </button>
                         </div>
                     </div>
@@ -298,18 +384,20 @@
             </section>
             <!-- =====about-01==== -->
             <section>
-                <div class="content">
+                <div class="container">
                     <div class="about__02">
                         <div class="about__02--header">
                             <h2 class="about__02--title">
                                 Our virtual dentist
                             </h2>
-                            <button class="about__02--btn">
-                                <a href="#!">Meet our dentist</a>
+                            <button>
+                                <a class="about__02--btn btn" href="#!"
+                                    >Meet our dentist</a
+                                >
                             </button>
                         </div>
                         <div class="about__02--doctor">
-                            <div class="doctor__item">
+                            <article class="doctor__item">
                                 <div class="doctor-img--block">
                                     <img
                                         class="doctor-img"
@@ -323,8 +411,8 @@
                                 <p class="doctor-desc">
                                     DDS, California - Linda University
                                 </p>
-                            </div>
-                            <div class="doctor__item">
+                            </article>
+                            <article class="doctor__item">
                                 <div class="doctor-img--block">
                                     <img
                                         class="doctor-img"
@@ -338,8 +426,8 @@
                                 <p class="doctor-desc">
                                     DDS, California - Linda University
                                 </p>
-                            </div>
-                            <div class="doctor__item">
+                            </article>
+                            <article class="doctor__item">
                                 <div class="doctor-img--block">
                                     <img
                                         class="doctor-img"
@@ -353,8 +441,8 @@
                                 <p class="doctor-desc">
                                     DDS, California - Linda University
                                 </p>
-                            </div>
-                            <div class="doctor__item">
+                            </article>
+                            <article class="doctor__item">
                                 <div class="doctor-img--block">
                                     <img
                                         class="doctor-img"
@@ -368,7 +456,7 @@
                                 <p class="doctor-desc">
                                     DDS, California - Linda University
                                 </p>
-                            </div>
+                            </article>
                         </div>
                         <div class="about__01--arrow">
                             <button class="arrow__block">
@@ -413,14 +501,16 @@
             <!-- =====features===== -->
             <section>
                 <div class="features">
-                    <div class="content">
+                    <div class="container">
                         <div class="features__body">
                             <div class="content-row">
-                                <img
-                                    class="features__body--img"
-                                    src="./assets/img/features-img.svg"
-                                    alt="features-img"
-                                />
+                                <figure>
+                                    <img
+                                        class="features__body--img"
+                                        src="./assets/img/features-img.svg"
+                                        alt="features-img"
+                                    />
+                                </figure>
                                 <div class="features__body--info">
                                     <h2 class="features__info--title">
                                         Take back your smile with dentures
@@ -453,7 +543,7 @@
             <!-- ===News=== -->
             <section>
                 <div class="news">
-                    <div class="content">
+                    <div class="container">
                         <div class="content-row">
                             <div class="news__info">
                                 <h2 class="news__info--title">
@@ -555,7 +645,7 @@
             <!-- ======appointment====== -->
             <section>
                 <div class="appointment">
-                    <div class="content">
+                    <div class="container">
                         <di class="appointment__info">
                             <h2 class="appointment__title">
                                 Always welcoming new patients
@@ -565,8 +655,11 @@
                                 personalized care you deserve. Call (541)
                                 772-8846 to schedule
                             </p>
-                            <button class="appointment__btn">
-                                <a href="#!" class="appointment__btn--a"
+                            <button>
+                                <a
+                                    class="appointment__btn btn"
+                                    href="#!"
+                                    class="appointment__btn--a"
                                     >Appointment</a
                                 >
                             </button>
@@ -577,7 +670,7 @@
 
             <!-- ======Footer====== -->
             <footer>
-                <div class="content">
+                <div class="container">
                     <div class="content-row footer__content">
                         <div class="footer__info">
                             <a href="#!">
@@ -596,25 +689,37 @@
                             <ul class="support__header">
                                 Support
                                 <li class="support__item">
-                                    <a href="#!" class="support__item--info"> Help center </a>
+                                    <a href="#!" class="support__item--info">
+                                        Help center
+                                    </a>
                                 </li>
                                 <li class="support__item">
-                                    <a href="#!" class="support__item--info">Account information</a>
+                                    <a href="#!" class="support__item--info"
+                                        >Account information</a
+                                    >
                                 </li>
                                 <li class="support__item">
-                                    <a href="#!" class="support__item--info">About</a>
+                                    <a href="#!" class="support__item--info"
+                                        >About</a
+                                    >
                                 </li>
                                 <li class="support__item">
-                                    <a href="#!" class="support__item--info">Contact us</a>
+                                    <a href="#!" class="support__item--info"
+                                        >Contact us</a
+                                    >
                                 </li>
                             </ul>
                             <ul class="support__header">
                                 Support
                                 <li class="support__item">
-                                    <a href="#!" class="support__item--info">Help center</a>
+                                    <a href="#!" class="support__item--info"
+                                        >Help center</a
+                                    >
                                 </li>
                                 <li class="support__item">
-                                    <a href="#!" class="support__item--info">Account information</a>
+                                    <a href="#!" class="support__item--info"
+                                        >Account information</a
+                                    >
                                 </li>
                             </ul>
                         </div>
@@ -622,16 +727,22 @@
                             <ul class="support__header">
                                 Support
                                 <li class="support__item">
-                                    <a href="#!" class="support__item--info">Help center</a>
+                                    <a href="#!" class="support__item--info"
+                                        >Help center</a
+                                    >
                                 </li>
                                 <li class="support__item">
-                                    <a href="#!" class="support__item--info">Account information</a>
+                                    <a href="#!" class="support__item--info"
+                                        >Account information</a
+                                    >
                                 </li>
                             </ul>
                             <ul class="support__header">
                                 Support
                                 <li class="support__item">
-                                    <a href="#!" class="support__item--info">Help center</a>
+                                    <a href="#!" class="support__item--info"
+                                        >Help center</a
+                                    >
                                 </li>
                             </ul>
                         </div>
